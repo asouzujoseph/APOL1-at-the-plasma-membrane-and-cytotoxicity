@@ -134,7 +134,7 @@ plot_volcano <- function(res_annot, title, file) {
   ggsave(file, p, width = 6, height = 5, dpi = 300)
 }
 
-#ChatGPT revised for the plots
+
 plot_volcano <- function(res_annot, title, file) {
   volc <- res_annot %>%
     mutate(
